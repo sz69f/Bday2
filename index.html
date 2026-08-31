@@ -485,4 +485,696 @@ footer p{margin-top:10px;color:var(--muted);font-size:11px}
           
           <input id="audioFile" type="file" accept="audio/*" hidden>
         </label>
- 
+        <button class="btn" id="ambientBtn"></button>
+      </div>
+    </div>
+    <audio id="audio" preload="metadata"></audio>
+  </div>
+</section>
+
+<!-- LETTER -->
+<section id="letter">
+  <div class="container reveal">
+    <div class="eyebrow center">something I wanted to say</div>
+    <h2 class="title center">I wrote you a <em>letter.</em></h2>
+
+    <div class="letter-stage">
+      <div>
+        <div class="envelope" id="envelope" aria-label="Open letter">
+          <div class="env-back"></div>
+          <div class="letter">
+            <h3>To my favorite person,</h3>
+            <p id="letterText">
+              Happy birthday, beautiful. I hope you know how much you mean to me.
+              You make my days brighter in ways you probably don't even notice.
+              I love the little things about you, the way you make me laugh,
+              the comfort of talking to you, and simply knowing you're there.
+              Today I just want you to feel celebrated, appreciated, and loved.
+              You deserve good things, soft days, big dreams, and every reason to smile.
+            </p>
+            <div class="sig">Always yours, ♥</div>
+          </div>
+          <div class="env-flap"></div>
+          <div class="env-front"></div>
+          <div class="env-seal">♥</div>
+        </div>
+        <div class="letter-hint">tap the envelope</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MEMORIES -->
+<section id="memories">
+  <div class="container reveal">
+    <div class="eyebrow center">little pieces of you💞🎀</div>
+    <h2 class="title center">You <em>BBG</em></h2>
+    <p class="muted center" style="margin:15px auto 0;max-width:600px">
+      Tap any photo to open it full-screen.
+    </p>
+
+    <div class="gallery" id="gallery">
+      <!-- Add your files as photos/01.jpg ... photos/10.jpg -->
+      <div class="photo" data-src="photos/01.jpg" data-caption="A memory worth keeping"><div class="placeholder">PHOTO 01<br><br>Add <b>photos/01.jpg</b></div><span class="tag">01</span></div>
+      <div class="photo" data-src="photos/02.jpg" data-caption="One of my favorites"><div class="placeholder">PHOTO 02<br><br>Add <b>photos/02.jpg</b></div><span class="tag">02</span></div>
+      <div class="photo" data-src="photos/03.jpg" data-caption="A little moment"><div class="placeholder">PHOTO 03<br><br>Add <b>photos/03.jpg</b></div><span class="tag">03</span></div>
+      <div class="photo" data-src="photos/04.jpg" data-caption="Uuh 💞"><div class="placeholder">PHOTO 04<br><br>Add <b>photos/04.jpg</b></div><span class="tag">04</span></div>
+      <div class="photo" data-src="photos/05.jpg" data-caption="Still makes me smile"><div class="placeholder">PHOTO 05<br><br>Add <b>photos/05.jpg</b></div><span class="tag">05</span></div>
+      <div class="photo" data-src="photos/06.jpg" data-caption="Another beautiful day"><div class="placeholder">PHOTO 06<br><br>Add <b>photos/06.jpg</b></div><span class="tag">06</span></div>
+      <div class="photo" data-src="photos/07.jpg" data-caption="A favorite chapter"><div class="placeholder">PHOTO 07<br><br>Add <b>photos/07.jpg</b></div><span class="tag">07</span></div>
+      <div class="photo" data-src="photos/08.jpg" data-caption="You, being you"><div class="placeholder">PHOTO 08<br><br>Add <b>photos/08.jpg</b></div><span class="tag">08</span></div>
+      <div class="photo" data-src="photos/09.jpg" data-caption="A moment I never want to forget"><div class="placeholder">PHOTO 09<br><br>Add <b>photos/09.jpg</b></div><span class="tag">09</span></div>
+      <div class="photo" data-src="photos/10.jpg" data-caption="My favorite kind of happy"><div class="placeholder">PHOTO 10<br><br>Add <b>photos/10.jpg</b></div><span class="tag">10</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- MESSAGE -->
+<section id="message">
+  <div class="container reveal">
+    <div class="eyebrow">read this slowly</div>
+    <div class="message-grid">
+      <div class="message-copy">
+        <h2 class="title">You're <em>important.</em></h2>
+        <p style="margin-top:28px" id="mainMessage">
+          I just want you to know that you are genuinely important to me.
+          Your presence makes ordinary days feel a little more special, and
+          having you in my life is something I will always be grateful for.
+          I hope this birthday brings you endless reasons to smile, beautiful
+          memories, and all the happiness your heart can hold. No matter where
+          life takes us, I hope you always remember that you are appreciated,
+          cared for, and loved. I love you more than a few lines on a screen
+          could ever explain.
+        </p>
+        <div class="signature">I love you. 👉👈💞</div>
+      </div>
+
+      <figure class="polaroid">
+        <div class="pic" id="featurePic">
+          <span>Add your favorite photo as <b>photos/01.jpg</b></span>
+        </div>
+        <figcaption>my favorite person</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- REASONS -->
+<section id="reasons">
+  <div class="container reveal">
+    <div class="eyebrow center">just a few reasons</div>
+    <h2 class="title center">Why I <em>love you.</em></h2>
+    <div class="reasons">
+      <article class="reason"><b>01</b><h4>Your smile</h4><p>Somehow it makes even the most boring day feel lighter.</p></article>
+      <article class="reason"><b>02</b><h4>Your heart</h4><p>The way you care about people says so much about who you are.</p></article>
+      <article class="reason"><b>03</b><h4>Your chaos</h4><p>Even your random little moments have become some of my favorites.</p></article>
+      <article class="reason"><b>04</b><h4>Your comfort</h4><p>Talking to you can turn a bad day into a better one.</p></article>
+      <article class="reason"><b>05</b><h4>Just you</h4><p>There doesn't need to be a reason. You being you is enough.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section id="story">
+  <div class="container reveal">
+    <div class="eyebrow center">our little timeline</div>
+    <h2 class="title center">Our <em>story.</em></h2>
+    <p class="muted center" style="margin-top:15px"></p>
+
+    <div class="timeline">
+      <div class="event"><span class="dot"></span><div class="AUGUST 2023">The beginning</div><h4>First time I saw you</h4><p>Mera K.V mein admission,and teri first performance....</p></div>
+      <div class="event"><span class="dot"></span><div class="MARCH 2026">This year</div><h4>Our first real conversation</h4><p>First time you confessed out of frustration....</p></div>
+      <div class="event"><span class="dot"></span><div class="KABADDI DAYS">Kabaddi days</div><h4>When I knew you were special</h4><p>Main start of our story .... Intro , talks ,,, milna , dekhna .....</p></div>
+      <div class="event"><span class="dot"></span><div class="13-08-2026 , TERA B'DAY">Today</div><h4>Tera Birthday</h4><p>And here we are, celebrating you. I hope there are many more chapters.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SURPRISE -->
+<section id="surprise">
+  <div class="container reveal gift-stage">
+    <div class="eyebrow">one last thing</div>
+    <h2 class="title">Your <em>surprise.</em> 🎁</h2>
+    <p class="muted" style="margin-top:15px">Click the gift. I promise it's worth it.</p>
+
+    <div class="gift" id="gift">
+      <div class="bow"></div>
+      <div class="gift-lid"></div>
+      <div class="gift-body"></div>
+      <div class="gift-ribbon"></div>
+    </div>
+    <div class="gift-note" id="giftNote">OPEN ME ♥</div>
+
+    <div class="final-reveal" id="finalReveal">
+      <div class="eyebrow">and finally...</div>
+      <h3>Happy Birthday, TIRRI 🤭💞🎀</h3>
+      <p>
+        I hope this little world I made for you reminds you of one simple thing:
+        you matter. You are loved. And you make my world a little more beautiful
+        just by being in it.
+      </p>
+      <button class="btn primary" onclick="celebrate()">Make it rain hearts ♥</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-love">Made with love, for you.</div>
+  <p>Not a perfect website. Just a very sincere little piece of my heart. ♥</p>
+</footer>
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose">×</button>
+  <button class="lb-prev" id="lbPrev">‹</button>
+  <img id="lbImg" alt="Memory">
+  <button class="lb-next" id="lbNext">›</button>
+  <div class="lb-caption" id="lbCaption"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* =========================================================
+   ❤️ EDIT THIS BLOCK — THIS IS THE ONLY PART YOU NEED TO
+   PERSONALIZE FOR THE MOST BASIC SETUP.
+   ========================================================= */
+
+const CONFIG = {
+  name: "PALAK",
+
+  // Example: "August 13, 2026 00:00:00"
+  birthday: "August 13, 2026 00:00:00",
+
+  // Main romantic message
+  message:
+    "I just want you to know that you are genuinely important to me. " +
+    "Your presence makes ordinary days feel a little more special, and " +
+    "having you in my life is something I will always be grateful for. " +
+    "I hope this birthday brings you endless reasons to smile, beautiful " +
+    "memories, and all the happiness your heart can hold. No matter where " +
+    "life takes us, I hope you always remember that you are appreciated, " +
+    "cared for, and loved. I love you more than a few lines on a screen " +
+    "could ever explain.",
+
+  // Optional: put a filename here if you want a permanent music file
+  // Example: "music/song.mp3"
+  musicFile: "music/bdaysong.mp3"
+};
+
+
+/* =========================================================
+   BASIC PERSONALIZATION
+   ========================================================= */
+
+document.getElementById("PALAK").textContent = CONFIG.name;
+document.getElementById("PALAK").textContent = CONFIG.name;
+document.getElementById("mainMessage").textContent = CONFIG.message;
+
+
+/* =========================================================
+   INTRO
+   ========================================================= */
+
+const intro = document.getElementById("intro");
+const enterBtn = document.getElementById("enterBtn");
+
+enterBtn.addEventListener("click", () => {
+  intro.classList.add("hide");
+  document.body.classList.remove("locked");
+  createConfetti(70);
+  showToast("Welcome to your little birthday world 💞");
+});
+
+setTimeout(() => {
+  // Don't auto-close it. The first tap is useful for mobile audio permission.
+}, 200);
+
+
+/* =========================================================
+   NAV / SCROLL
+   ========================================================= */
+
+const topbar = document.getElementById("topbar");
+
+window.addEventListener("scroll", () => {
+  topbar.classList.toggle("scrolled", window.scrollY > 30);
+});
+
+function goTo(id){
+  document.getElementById(id).scrollIntoView({behavior:"smooth"});
+}
+
+
+/* =========================================================
+   COUNTDOWN
+   ========================================================= */
+
+const birthday = new Date(CONFIG.birthday);
+
+function updateCountdown(){
+  const now = new Date();
+  let diff = birthday - now;
+
+  // Birthday has arrived
+  if(diff <= 0){
+    document.getElementById("days").textContent = "🎂";
+    document.getElementById("hours").textContent = "IT'S";
+    document.getElementById("minutes").textContent = "UR";
+    document.getElementById("seconds").textContent = "BDAY";
+    return;
+  }
+
+  const sec = Math.floor(diff / 1000);
+  const days = Math.floor(sec / 86400);
+  const hours = Math.floor((sec % 86400) / 3600);
+  const mins = Math.floor((sec % 3600) / 60);
+  const seconds = sec % 60;
+
+  document.getElementById("days").textContent = String(days).padStart(2,"0");
+  document.getElementById("hours").textContent = String(hours).padStart(2,"0");
+  document.getElementById("minutes").textContent = String(mins).padStart(2,"0");
+  document.getElementById("seconds").textContent = String(seconds).padStart(2,"0");
+}
+
+updateCountdown();
+setInterval(updateCountdown,1000);
+
+
+/* =========================================================
+   SCROLL REVEALS
+   ========================================================= */
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("visible");
+      observer.unobserve(entry.target);
+    }
+  });
+},{threshold:.12});
+
+document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+
+
+/* =========================================================
+   ENVELOPE
+   ========================================================= */
+
+document.getElementById("envelope").addEventListener("click", function(){
+  this.classList.toggle("open");
+
+  if(this.classList.contains("open")){
+    createHearts(18);
+    showToast("A little letter, just for you 🤧🎀");
+  }
+});
+
+
+/* =========================================================
+   GALLERY + LIGHTBOX
+   ========================================================= */
+
+const photoCards = [...document.querySelectorAll(".photo")];
+const lightbox = document.getElementById("lightbox");
+const lbImg = document.getElementById("lbImg");
+const lbCaption = document.getElementById("lbCaption");
+let currentPhoto = 0;
+
+function openPhoto(index){
+  currentPhoto = index;
+  const card = photoCards[index];
+  const src = card.dataset.src;
+  const caption = card.dataset.caption;
+
+  const test = new Image();
+
+  test.onload = () => {
+    lbImg.src = src;
+    lbImg.style.display = "block";
+    lbCaption.textContent = caption;
+    lightbox.classList.add("show");
+  };
+
+  test.onerror = () => {
+    lbImg.removeAttribute("src");
+    lbImg.style.display = "none";
+    lbCaption.textContent = "Add " + src + " to your project folder ♥";
+    lightbox.classList.add("show");
+  };
+
+  test.src = src;
+}
+
+photoCards.forEach((card,i) => {
+  card.addEventListener("click", () => openPhoto(i));
+
+  // Upgrade placeholder automatically if the image exists.
+  const src = card.dataset.src;
+  const img = new Image();
+  img.onload = () => {
+    card.innerHTML =
+      '<img src="' + src + '" alt="Memory ' + (i+1) + '">' +
+      '<span class="tag">' + String(i+1).padStart(2,"0") + '</span>';
+  };
+  img.src = src;
+});
+
+document.getElementById("lbClose").onclick = () => lightbox.classList.remove("show");
+document.getElementById("lbPrev").onclick = () => openPhoto((currentPhoto - 1 + photoCards.length) % photoCards.length);
+document.getElementById("lbNext").onclick = () => openPhoto((currentPhoto + 1) % photoCards.length);
+
+lightbox.addEventListener("click",e => {
+  if(e.target === lightbox) lightbox.classList.remove("show");
+});
+
+document.addEventListener("keydown",e => {
+  if(!lightbox.classList.contains("show")) return;
+  if(e.key === "Escape") lightbox.classList.remove("show");
+  if(e.key === "ArrowLeft") openPhoto((currentPhoto - 1 + photoCards.length) % photoCards.length);
+  if(e.key === "ArrowRight") openPhoto((currentPhoto + 1) % photoCards.length);
+});
+
+
+/* =========================================================
+   FEATURE PHOTO
+   ========================================================= */
+
+const featurePic = document.getElementById("featurePic");
+const featureTest = new Image();
+featureTest.onload = () => {
+  featurePic.innerHTML = '<img src="photos/01.jpg" alt="Favorite memory">';
+};
+featureTest.src = "photos/01.jpg";
+
+
+/* =========================================================
+   MUSIC PLAYER
+   ========================================================= */
+
+const audio = document.getElementById("audio");
+const playBtn = document.getElementById("playBtn");
+const progress = document.getElementById("progress");
+const timeLabel = document.getElementById("timeLabel");
+const trackTitle = document.getElementById("trackTitle");
+const trackSub = document.getElementById("trackSub");
+let audioURL = null;
+
+function formatTime(s){
+  if(!isFinite(s)) return "00:00";
+  const m = Math.floor(s/60);
+  const sec = Math.floor(s%60);
+  return String(m).padStart(2,"0") + ":" + String(sec).padStart(2,"0");
+}
+
+function updatePlayIcon(){
+  playBtn.textContent = audio.paused ? "▶" : "Ⅱ";
+}
+
+playBtn.addEventListener("click", async () => {
+  if(!audio.src){
+    startAmbient();
+    return;
+  }
+  if(audio.paused){
+    await audio.play();
+  }else{
+    audio.pause();
+  }
+  updatePlayIcon();
+});
+
+audio.addEventListener("timeupdate",()=>{
+  if(audio.duration){
+    progress.value = (audio.currentTime / audio.duration) * 100;
+  }
+  timeLabel.textContent = formatTime(audio.currentTime);
+});
+
+progress.addEventListener("input",()=>{
+  if(audio.duration){
+    audio.currentTime = (progress.value/100)*audio.duration;
+  }
+});
+
+audio.addEventListener("ended",()=>{
+  playBtn.textContent = "▶";
+  progress.value = 0;
+});
+
+document.getElementById("audioFile").addEventListener("change",e=>{
+  const file = e.target.files[0];
+  if(!file) return;
+
+  if(audioURL) URL.revokeObjectURL(audioURL);
+  audioURL = URL.createObjectURL(file);
+  audio.src = audioURL;
+  audio.load();
+
+  trackTitle.textContent = file.name.replace(/\.[^/.]+$/,"");
+  trackSub.textContent = "Your chosen song 💞";
+
+  audio.play().then(updatePlayIcon).catch(()=>{});
+});
+
+if(CONFIG.musicFile){
+  audio.src = CONFIG.musicFile;
+  trackTitle.textContent = "SONG FOR YOU 👉👈🫣";
+  trackSub.textContent = "";
+}
+
+
+/* =========================================================
+   ORIGINAL AMBIENT MODE
+   Uses Web Audio API. No external copyrighted recording.
+   ========================================================= */
+
+let ambientCtx = null;
+let ambientGain = null;
+let ambientTimer = null;
+let ambientPlaying = false;
+
+function startAmbient(){
+  if(ambientPlaying){
+    stopAmbient();
+    return;
+  }
+
+  ambientCtx = new (window.AudioContext || window.webkitAudioContext)();
+  ambientGain = ambientCtx.createGain();
+  ambientGain.gain.value = 0.035;
+  ambientGain.connect(ambientCtx.destination);
+
+  const notes = [261.63,329.63,392.00,523.25,392.00,329.63];
+  let i = 0;
+
+  function chime(){
+    if(!ambientPlaying) return;
+
+    const osc = ambientCtx.createOscillator();
+    const gain = ambientCtx.createGain();
+
+    osc.type = "sine";
+    osc.frequency.value = notes[i % notes.length];
+
+    gain.gain.setValueAtTime(0,ambientCtx.currentTime);
+    gain.gain.linearRampToValueAtTime(.18,ambientCtx.currentTime+.05);
+    gain.gain.exponentialRampToValueAtTime(.001,ambientCtx.currentTime+2.6);
+
+    osc.connect(gain);
+    gain.connect(ambientGain);
+
+    osc.start();
+    osc.stop(ambientCtx.currentTime+2.7);
+
+    i++;
+    ambientTimer = setTimeout(chime,900);
+  }
+
+  ambientPlaying = true;
+  chime();
+  document.getElementById("ambientBtn").textContent = "Stop ambient";
+  trackTitle.textContent = "Dreamy birthday ambience";
+  trackSub.textContent = "Original soft chime mode";
+  playBtn.textContent = "Ⅱ";
+}
+
+function stopAmbient(){
+  ambientPlaying = false;
+  clearTimeout(ambientTimer);
+  if(ambientCtx) ambientCtx.close();
+  ambientCtx = null;
+  document.getElementById("ambientBtn").textContent = "Ambient ♥";
+  playBtn.textContent = "▶";
+}
+
+document.getElementById("ambientBtn").addEventListener("click",()=>{
+  if(ambientPlaying) stopAmbient();
+  else startAmbient();
+});
+
+document.getElementById("musicNav").addEventListener("click",()=>goTo("music"));
+
+
+/* =========================================================
+   GIFT REVEAL
+   ========================================================= */
+
+const gift = document.getElementById("gift");
+const finalReveal = document.getElementById("finalReveal");
+let giftOpened = false;
+
+gift.addEventListener("click",()=>{
+  if(giftOpened) return;
+  giftOpened = true;
+
+  gift.classList.add("open");
+  document.getElementById("giftNote").textContent = "A gift, but the real gift is you ♥";
+
+  setTimeout(()=>{
+    finalReveal.classList.add("show");
+    createConfetti(130);
+    createHearts(45);
+  },700);
+
+  setTimeout(()=>finalReveal.scrollIntoView({behavior:"smooth",block:"center"}),900);
+});
+
+
+/* =========================================================
+   EFFECTS
+   ========================================================= */
+
+function createConfetti(amount=100){
+  const fx = document.getElementById("fx");
+
+  for(let i=0;i<amount;i++){
+    const c = document.createElement("div");
+    c.className = "confetti";
+    c.style.left = Math.random()*100 + "vw";
+    c.style.setProperty("--x",(Math.random()*260-130)+"px");
+    c.style.animationDuration = (2.2 + Math.random()*2.5) + "s";
+    c.style.animationDelay = Math.random()*.7 + "s";
+    c.style.background =
+      ["#ff4f9a","#ffb4d4","#9b72ff","#fff","#ffd36b"][Math.floor(Math.random()*5)];
+    c.style.transform = "rotate("+(Math.random()*360)+"deg)";
+    fx.appendChild(c);
+    setTimeout(()=>c.remove(),5500);
+  }
+}
+
+function createHearts(amount=20){
+  const fx = document.getElementById("fx");
+
+  for(let i=0;i<amount;i++){
+    const h = document.createElement("div");
+    h.className = "float-heart";
+    h.textContent = Math.random()>.25 ? "💞" : "🎀";
+    h.style.left = (20 + Math.random()*60) + "%";
+    h.style.top = (55 + Math.random()*25) + "%";
+    h.style.animationDelay = Math.random()*.5 + "s";
+    fx.appendChild(h);
+    setTimeout(()=>h.remove(),3500);
+  }
+}
+
+function celebrate(){
+  createConfetti(260);
+  createHearts(90);
+  showToast("Happy birthday, JHATU 😝💞");
+}
+
+
+/* =========================================================
+   TOAST
+   ========================================================= */
+
+let toastTimer;
+function showToast(message){
+  const toast = document.getElementById("toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>toast.classList.remove("show"),2600);
+}
+
+
+/* =========================================================
+   BACKGROUND STAR FIELD
+   ========================================================= */
+
+const canvas = document.getElementById("stars");
+const ctx = canvas.getContext("2d");
+let stars = [];
+let W,H,dpr;
+
+function resizeCanvas(){
+  dpr = Math.min(window.devicePixelRatio || 1,2);
+  W = window.innerWidth;
+  H = window.innerHeight;
+  canvas.width = W*dpr;
+  canvas.height = H*dpr;
+  canvas.style.width = W+"px";
+  canvas.style.height = H+"px";
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+
+  stars = Array.from({length:Math.min(180,Math.floor(W/6))},()=>({
+    x:Math.random()*W,
+    y:Math.random()*H,
+    r:Math.random()*1.4+.15,
+    a:Math.random()*.7+.1,
+    speed:Math.random()*.004+.001
+  }));
+}
+
+function drawStars(t){
+  ctx.clearRect(0,0,W,H);
+  for(const s of stars){
+    const alpha = s.a + Math.sin(t*s.speed+s.x)*.15;
+    ctx.beginPath();
+    ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+    ctx.fillStyle = "rgba(255,220,240,"+Math.max(.05,alpha)+")";
+    ctx.fill();
+  }
+  requestAnimationFrame(drawStars);
+}
+
+window.addEventListener("resize",resizeCanvas);
+resizeCanvas();
+requestAnimationFrame(drawStars);
+
+
+/* =========================================================
+   SMALL RANDOM HEARTS WHILE SCROLLING
+   ========================================================= */
+
+let lastScrollHeart = 0;
+window.addEventListener("scroll",()=>{
+  const now = Date.now();
+  if(now-lastScrollHeart > 1600 && Math.random()>.55){
+    lastScrollHeart = now;
+    const h = document.createElement("div");
+    h.className="float-heart";
+    h.textContent="💞";
+    h.style.left=(10+Math.random()*80)+"%";
+    h.style.top="82%";
+    h.style.position="fixed";
+    document.getElementById("fx").appendChild(h);
+    setTimeout(()=>h.remove(),3000);
+  }
+});
+
+
+/* =========================================================
+   KEYBOARD SHORTCUT
+   ========================================================= */
+
+document.addEventListener("keydown",e=>{
+  if(e.key.toLowerCase()==="m"){
+    goTo("music");
+  }
+});
+</script>
+</body>
+</html>
